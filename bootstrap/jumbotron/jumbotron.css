@@ -1,0 +1,172 @@
+/* CSS Document */
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.white {
+	color: white;
+}
+.red {
+	color: red;
+}
+.blue {
+	color: blue;
+}
+.yellow {
+	color: yellow;
+}
+a:hover {
+	color: red;
+}
+.bold {
+	font-weight: bold;
+}
+th {
+	text-align: center;
+}
+td {
+	text-align: center;
+}
+td.bg-red {
+	background-color: hsla(304,83%,76%,1.00);
+}
+th.holiday {
+	background-color: pink;
+	color: red;
+}
+.holiday {
+	background-color: pink;
+	color: red;
+}
+.m {
+	background-color: hsla(182,95%,60%,0.69);
+}
+.a {
+	background-color: hsla(144,98%,24%,0.64);
+}
+div.block {
+	width: 40px;
+	height: 20px;
+	border: 2px solid black;
+	float: left;
+}
+div.space {
+	width: 80px;
+	height: 20px;
+	float: left;
+}
+.hamagin {
+	width: 45%;
+}
+.nisseki {
+	width: 45%;
+}
+.time {
+	width: 10%;
+	font-weight: bold;
+	font-style: italic;
+	height: 60px;
+	font-size: 1.2em;
+	background-color: red;
+	color: white;
+}
+caption {
+	font-size: 2em;
+	font-weight: bold;
+}
+.col-md-12 .table.table-condensed.table-striped caption {
+}
+td {
+	font-weight: bold;
+	font-size: 18px;
+	font-style: normal;
+	color: #020202;
+	padding-top: 0px;
+}
+th {
+	vertical-align: central;
+	font-size: 1.5em;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+.registration {
+	background-color: rgba(164,161,161,1.00);
+	font-size: 22px;
+	color: white;
+}
+.session {
+	font-size: 24px;
+	background-color: #F7F4D8;
+}
+.block {
+	height: 30px;
+}
+.btn-p {
+	background-color: rgba(167,74,245,1.00);
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+}
+.btn-br {
+	background-color: rgb(91, 192, 222);
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+}
+.btn-re {
+	background-color: pink;
+	font-size: 18px;
+	font-weight: bold;
+	color: red;
+}
+.btn-bk {
+	background-color: rgb(247, 244, 216);
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+}
+.btn-detail {
+	background-color: #F205CD;
+	font: 18px bold;
+	color: white;
+}
+.btn-question {
+	background-color: #207000;
+	font: 20px bold;
+	color: white;
+}
+.bayside {
+	background-color: rgba(167,74,245,1.00);
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+}
+.tri {
+	background-color: pink;
+	color: white;
+	border: 2px solid red;
+}
+.come {
+	background-color: rgba(226,142,245,1.00);
+	color: white;
+	border: 2px solid red;
+}
+td.lunch {
+	background-color: rgba(190,246,224,1.00);
+}
+.lunch {
+	background-color: blue;
+	color: white;
+	font-size: 20px;
+	line-height: 22px;
+	padding-bottom: 2px;
+}
+
+.invisible {
+	visibility:hidden;
+}
+.border-thick {
+	border: 2px solid black;
+}

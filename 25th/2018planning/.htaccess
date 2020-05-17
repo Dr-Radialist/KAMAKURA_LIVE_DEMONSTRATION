@@ -1,0 +1,4 @@
+##AuthType     Basic
+##AuthName     "This is a restricted area!"
+##AuthUserFile /virtual/ssl/24th/2017planning/.htpasswd
+##require valid-user

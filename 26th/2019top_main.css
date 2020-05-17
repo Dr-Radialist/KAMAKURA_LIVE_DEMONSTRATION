@@ -1,0 +1,162 @@
+/* CSS Document */
+p {
+  font-weight: bold;
+  color: #939191;
+}
+li {
+  font-weight: bold;
+  color: #88776C;
+}
+div.back-sky-blue {
+  background-color: #CDF5FC;
+  margin-top: 0.5em;
+  margin-bottom: 5px;
+  padding-bottom: 2px;
+  padding-top: 0.5em;
+}
+div.back-faint-pink {
+  background-color: #F7D0E0;
+  margin-top: 0.5em;
+  margin-bottom: 5px;
+  padding-bottom: 2px;
+  padding-top: 0.5em;
+}
+div.back-coral-orange {
+  /* background-color: #F6BC6D; */
+  background-color: #E97963; 
+  margin-top: 0.5em;
+  margin-bottom: 5px;
+  padding-bottom: 2px;
+  padding-top: 0.5em;
+}
+div.back-classic-blue {
+  /* background-color: #F6BC6D; */
+  background-color: #E97963; 
+  margin-top: 0.5em;
+  margin-bottom: 5px;
+  padding-bottom: 2px;
+  padding-top: 0.5em;
+}
+.title {
+  color: #F76A00;
+}
+.li-white {
+  color: white;
+}
+.red_bold_sm {
+  color: red;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 1em;
+}
+.right_float {
+  float: right;
+  margin-left: 2em;
+  margin-bottom: 1em;
+  margin-right: 1em;
+}
+.dropdown-backdrop {
+  position: static;
+}
+.pay {
+  -webkit-animation: blink 1.0s ease-in-out infinite alternate;
+  -moz-animation: blink 1.0s ease-in-out infinite alternate;
+  animation: blink 1.0s ease-in-out infinite alternate;
+  color: white;
+  font-weight: bold;
+}
+.pay1 {
+  -webkit-animation: blink1 1.0s ease-in-out infinite alternate;
+  -moz-animation: blink1 1.0s ease-in-out infinite alternate;
+  animation: blink1 1.0s ease-in-out infinite alternate;
+  color: white;
+  font-weight: bold;
+}
+.pay2 {
+  -webkit-animation: blink2 1.0s ease-in-out infinite alternate;
+  -moz-animation: blink2 1.0s ease-in-out infinite alternate;
+  animation: blink2 1.0s ease-in-out infinite alternate;
+  color: white;
+  font-weight: bold;
+}
+@-webkit-keyframes blink {
+  0% {
+    background-color: #039E07;
+  }
+  10% {
+    background-color: #FDE8A1;
+  }
+  100% {
+    background-color: red;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    background-color: #039E07;
+  }
+  10% {
+    background-color: #FDE8A1;
+  }
+  100% {
+    background-color: red;
+  }
+}
+@keyframes blink {
+  0% {
+    background-color: #039E07;
+  }
+  10% {
+    background-color: #FDE8A1;
+  }
+  100% {
+    background-color: red;
+  }
+}
+@-webkit-keyframes blink1 {
+  0% {
+    width: 100px;
+  }
+  100% {
+    width: 200px;
+  }
+}
+@-moz-keyframes blink1 {
+  0% {
+    width: 100px;
+  }
+  100% {
+    width: 200px;
+  }
+}
+@keyframes blink1 {
+  0% {
+    width: 100px;
+  }
+  100% {
+    width: 200px;
+  }
+}
+@-webkit-keyframes blink2 {
+  0% {
+    height: 30px;
+  }
+  100% {
+    height: 50px;
+  }
+}
+@-moz-keyframes blink2 {
+  0% {
+    height: 30px;
+  }
+  100% {
+    height: 50px;
+  }
+}
+@keyframes blink2 {
+  0% {
+    height: 30px;
+  }
+  100% {
+    height: 50px;
+  }
+}

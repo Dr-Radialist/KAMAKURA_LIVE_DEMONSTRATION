@@ -1,0 +1,16 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+.btn-container-500 {
+	width:500px;
+	margin-left:auto; margin-right:auto;
+}
+.btn-container-400 {
+	width:400px;
+	margin-left:auto; margin-right:auto;
+}
+caption.thick {
+	text-align:center; font:"ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace; font-size: 28px; font-weight: bold; background-color:black; color:white; padding-top:10px; padding-bottom:10px;
+}

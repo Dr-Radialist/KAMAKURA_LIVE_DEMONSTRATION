@@ -1,0 +1,1 @@
+update `session_tbls` set `day` = '2017/12/10' where `id` > 207 and `id` < 219

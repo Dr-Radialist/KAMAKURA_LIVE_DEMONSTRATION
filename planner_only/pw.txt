@@ -1,0 +1,4 @@
+user name: kamakuralive
+password: should1be1successful
+
+.htaccess: kamakuralive:C5hSkZWFYlRu6

@@ -1,0 +1,8 @@
+php_value include_path "/virtual/www/pear/PEAR"
+php_value include_path "/virtual/cgi-data/"
+php_value mbstring.language neutral
+php_flag mbstring.encoding_translation off
+php_value default_charset "UTF-8"
+AddType application/x-httpd-php .html
+
+ 

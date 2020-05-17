@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+.box {
+	background-color: white;
+}
+td {
+	color: #013386;
+	text-align: center;
+	font: 20px bold Arial, Helvetica, sans-serif;
+}
+.program_header {
+	background-color: rgba(255,103,22,1.00);
+	color: white;
+	text-align: center;
+	padding: 3px 3px 3px 3px;
+}
+.session {
+	color: black;
+	background-color: #F8B287; font:24px bold Arial, Helvetica, sans-serif;
+}
+.sm_font {
+	font-size: 18px;
+}
+.lg_font {
+	font-size: 24px;
+}
+.red_yellow {
+	background-color:red;
+	font-size: 22px;
+	font-weight:bold;
+	color: yellow;
+	padding-bottom: 3px; padding-left: 10px; padding-right: 3px; padding-top: 3px;
+}

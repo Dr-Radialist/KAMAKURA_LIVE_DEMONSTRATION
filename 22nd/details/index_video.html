@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script>
+  function playVideo() {
+    var video = document.getElementById("v");
+    video.play(); // ビデオの再生
+  }
+  function pauseVideo() {
+    var video = document.getElementById("v");
+    video.pause(); // ビデオの一時停止
+  }
+</script>
+<title>KAMAKURA LIVE VIDEO</title>
+</head>
+
+<body>
+
+<video id="v" width="400">
+  <source src="IMG_0303.MOV">
+</video><br>
+<button onclick="playVideo();">再生</button>
+<button onclick="pauseVideo();">停止</button>
+
+</body>
+</html>

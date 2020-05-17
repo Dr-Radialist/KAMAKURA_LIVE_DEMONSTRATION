@@ -1,0 +1,4 @@
+AuthType     Basic
+AuthName     "This is a restricted area!"
+AuthUserFile /virtual/www/23rd/2016planning/.htpasswd
+require valid-user

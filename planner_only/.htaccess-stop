@@ -1,0 +1,4 @@
+AuthType     Basic
+AuthName     "This is a restricted area!"
+AuthUserFile /virtual/ssl/planner_only/.htpasswd
+require valid-user

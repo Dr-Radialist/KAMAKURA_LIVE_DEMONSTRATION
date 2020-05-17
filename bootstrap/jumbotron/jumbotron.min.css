@@ -1,0 +1,11 @@
+body{padding-top:50px;padding-bottom:20px}.white{color:white}.red{color:red}.blue{color:blue}a:hover{color:red}.bold{font-weight:bold}th{text-align:center}
+td{text-align:center}td.bg-red{background-color:hsla(304,83%,76%,1.00)}th.holiday{background-color:pink;color:red}.holiday{background-color:pink;color:red}
+.m{background-color:hsla(182,95%,60%,0.69)}.a{background-color:hsla(144,98%,24%,0.64)}div.block{width:40px;height:20px;border:2px solid black;float:left}
+div.space{width:80px;height:20px;float:left}.hamagin{width:45%}.nisseki{width:45%}.time{width:10%;font-weight:bold;font-style:italic;height:60px;font-size:1.2em;background-color:red;color:white}
+caption{font-size:2em;font-weight:bold}td{font-weight:bold;font-size:18px;font-style:normal;color:#020202;padding-top:0}th{vertical-align:central;font-size:1.5em;background-color:black;color:white;font-weight:bold}
+.registration{background-color:rgba(164,161,161,1.00);font-size:22px;color:white}.session{font-size:24px;background-color:#f7f4d8}#amds{height:180px;margin-bottom:auto;margin-top:auto}
+.block{height:30px}.btn-p{background-color:rgba(167,74,245,1.00);font-size:18px;font-weight:bold;color:white}.btn-br{background-color:#5bc0de;font-size:18px;font-weight:bold;color:black}
+.btn-re{background-color:pink;font-size:18px;font-weight:bold;color:red}.btn-bk{background-color:#f7f4d8;font-size:18px;font-weight:bold;color:black}.btn-detail{background-color:#f205cd;font:18px bold;color:white}
+.btn-question{background-color:#207000;font:20px bold;color:white}.bayside{background-color:rgba(167,74,245,1.00);font-size:24px;font-weight:bold;color:white}
+.tri{background-color:pink;color:white;border:2px solid red}.come{background-color:rgba(226,142,245,1.00);color:white;border:2px solid red}td.lunch{background-color:rgba(190,246,224,1.00)}
+.lunch{background-color:blue;color:white;font-size:20px;line-height:22px;padding-bottom:2px}.trend_lunch{background-color:red;color:white;font-size:26px;line-height:30px;padding-top:10px;padding-right:10px;padding-left:10px;padding-bottom:10px}

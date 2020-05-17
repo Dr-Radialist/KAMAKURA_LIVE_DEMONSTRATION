@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<meta name="generator" content="Adobe GoLive" />
+		<title>City Wall in Xi'an</title>
+		<script type="text/javascript">
+
+<!--//表示画像の自動変化ルーチン
+	imgs = new Array();
+	imgs[0] = new Image();
+	imgs[1] = new Image();
+	imgs[2] = new Image();
+	imgs[3] = new Image();
+	imgs[4] = new Image();
+	imgs[5] = new Image();
+	imgs[6] = new Image();
+
+
+	imgs[4].src = "TRI_Images/b4.jpg";
+	imgs[3].src = "TRI_Images/b3.jpg";
+	imgs[2].src = "TRI_Images/b2.jpg";
+	imgs[1].src = "TRI_Images/b1.jpg";
+	imgs[0].src = "TRI_Images/b0.jpg";
+	imgs[5].src = "TRI_Images/b4.jpg";
+	imgs[6].src = "TRI_Images/b0.jpg";
+	flag = 0;
+	function change() {
+		document.img1.src = imgs[flag].src;
+		flag = flag +1;
+		if (flag == 7) {
+			flag = 0;
+		}
+	}
+	function start() {
+		tm1 = setInterval("change()", 1000);
+	}
+//-->
+</script>
+	</head>
+
+	<body onload="start()" bgcolor="#80003f">
+		<p>
+		</p><tr>
+			<td>
+			<p align="center">
+				<img src="/TRC/TRI_Images/b0.jpg" name="img1" align="middle" border="2" />
+			</p>
+<form action="button.htm">
+<div align="center">
+<button name="click-here" type="button"  value="SELFHTML" onclick="javascript:history.back();">
+ <p><b>BACK</b><br />
+ </p></button>
+</div></form>
+			</td>
+		</tr>
+		<p></p>
+	</body>
+
+</html>

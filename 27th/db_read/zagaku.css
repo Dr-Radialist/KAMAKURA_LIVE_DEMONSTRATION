@@ -1,0 +1,44 @@
+/* CSS Document */
+
+.border-thick {
+	border: 1px solid #1503F5;
+	margin-bottom: 2px;
+	border-radius: 5px;
+}
+.border-luncheon {
+	border: 8px solid red;
+	margin-bottom: 2px;
+	border-radius: 15px;
+}
+.bold20 {
+	font-size: 20px;
+	font-weight: bold;
+}
+.bold18 {
+	font-size: 18px;
+	font-weight: bold;
+}
+.bold28 {
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	color: yellow;
+	background-color: red;
+	border-radius: 10px;
+}
+.panel-body-bg {
+	background-color: azure;
+}
+li.head {
+	font-size: larger;
+	font-weight: bold;
+	font-style: normal;
+	color:#000C87;
+}
+li.body {
+	font-size: 1em;
+	font-weight: bold;
+	font-style: normal;
+	color:azure;
+}
+

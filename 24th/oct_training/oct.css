@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+.top_head {
+	background-color: #427CB2;
+	border-top-right-radius: 2em;
+	border-top-left-radius:  2em;
+}
+.second_head{
+	background-color: #72AFD7;
+	height: 5em;
+}
+#abbott_logo {
+	margin-left: 1em;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.top_line {
+	color: white;
+	font-weight: bold;
+	font-size: 2em;
+}
+.second_line {
+	color: white;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.btn-space {
+	margin-top; auto;
+}
+.oct-description {
+	width: 90%; 
+	margin-left: auto; 
+	margin-right: auto;
+    background-color: aliceblue;
+	font-size: 14px;
+}
+.button-signify {
+	font-weight: bold; 
+	font-size: 14px;
+}

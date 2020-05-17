@@ -1,0 +1,52 @@
+/* CSS Document */
+
+
+p {
+	font-weight: bold;
+	color: #939191;
+}
+li {
+	font-weight: bold;
+	color: #88776C;
+}
+div.back-sky-blue {
+	background-color:#CDF5FC;
+	margin-top:0.5em;
+	margin-bottom:5px;
+	padding-bottom:2px;
+	padding-top:0.5em;
+}
+div.back-faint-pink {
+	background-color: #F7D0E0;
+	margin-top:0.5em;
+	margin-bottom:5px;
+	padding-bottom:2px;
+	padding-top:0.5em;
+}
+.li_bold {
+	font-weight: bold;
+	font-style: italic;
+}
+.li_title {
+	background-color:red;
+	color:yellow;
+}
+.li-white {
+	color: white;
+	list-style-type: none;
+}
+.red_bold_sm {
+	color:red;
+	font-weight:bold;
+	font-size:12px;
+	margin-left:1em;
+}
+.right_float {
+	float: right;
+	margin-left:2em;
+	margin-bottom: 1em;
+	margin-right:1em;
+}
+.navigation_icon {
+	font-size:36px;
+}

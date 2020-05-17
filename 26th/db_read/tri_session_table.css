@@ -1,0 +1,101 @@
+/* CSS Document */
+.session_title {
+	color: white;
+	font-size: 20px;
+	/*font-weight: bold; */
+	text-align: center;
+	background-color: #A0ABBE;
+	border-radius: 20px;
+	padding: 10px;
+	margin-bottom:4px;
+}
+.session {
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	background-color:yellow;
+	border-radius: 20px;
+	padding: 10px;
+	margin-bottom:4px;
+}
+.luncheon {
+	color: red;
+	font-size: 18px;
+	text-align: center;
+	background-color: #57F4D1;
+	width: 90%;
+	border-radius:20px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:5px;
+}
+.mini_lecture {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	background-color:#48D9D5;
+	padding-top:4px;
+	padding-bottom:4px;
+	width:80%;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom:4px;
+	margin-top:4px;
+	border-radius: 20px;
+}
+.session_sub {
+	color: #5903F2;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #B595F8;
+	border-radius:20px;
+	padding:8px;
+}
+button {
+	border: 0px;
+	width: 100%;
+}
+.subsession_button {
+	background-color: red;
+	color: yellow;
+	font-weight: bold;
+	border: 2px solid yellow;
+	width: 15%;
+	border-radius: 10px;
+}
+.subsession {
+	border: solid blue 2px;
+	background-color: #E5DFDF;
+	border-radius:20px;
+	font-weight: normal;
+	color: black;
+
+	padding-top:5px;
+	padding-bottom:5px;
+
+}
+.div_border2 {
+	border: solid blue 2px;
+	background-color: #E5DFDF;
+}
+.fright {
+	float: right;
+}
+.fleft {
+	float: left;
+}
+.fclear {
+	clear: both;
+}
+.smf {
+	font-size: 12px;
+}
+.small_left_align {
+	text-align:left;
+	font-size:12px;
+}
+.mid_left_align {
+	text-align:left;
+	font-size:14px;
+}

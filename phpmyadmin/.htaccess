@@ -1,0 +1,41 @@
+##### ここから #####
+<ifModule mod_siteguard.c>
+   <Files ~ "tbl_change\.php$">
+      SiteGuard_User_ExcludeSig 00301021
+   </Files>
+   <Files ~ "tbl_replace\.php$">
+      SiteGuard_User_ExcludeSig 00201001
+      SiteGuard_User_ExcludeSig 00301021
+   </Files>
+   <Files ~ "sql\.php$">
+      SiteGuard_User_ExcludeSig 00301021
+      SiteGuard_User_ExcludeSig 00201001
+   </Files>
+   <Files ~ "db_qbe\.php$">
+      SiteGuard_User_ExcludeSig 00301021
+   </Files>
+   <Files ~ "url\.php$">
+      SiteGuard_User_ExcludeSig 90104002
+   </Files>
+   <Files ~ "import\.php$">
+      SiteGuard_User_ExcludeSig 00301021
+      SiteGuard_User_ExcludeSig 00201001
+   </Files>
+   <Files ~ "querywindow\.php$">
+      SiteGuard_User_ExcludeSig 00301021
+   </Files>
+   <Files ~ "tbl_select\.php$">
+      SiteGuard_User_ExcludeSig 00201011
+   </Files>
+   <Files ~ "db_triggers\.php$">
+      SiteGuard_User_ExcludeSig 00201006
+   </Files>
+   <Files ~ "db_routines\.php$">
+      SiteGuard_User_ExcludeSig 00201001
+      SiteGuard_User_ExcludeSig 00201002
+   </Files>
+   <Files ~ "tbl_row_action\.php$">
+      SiteGuard_User_ExcludeSig 00301021
+   </Files>
+</ifModule>
+##### ここまで #####

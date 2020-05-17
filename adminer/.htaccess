@@ -1,0 +1,5 @@
+<IfModule mod_siteguard.c>
+<Files ~ "adminer.*\.php$">
+SiteGuard_User_ExcludeSig oscmd-21
+</Files>
+</IfModule>

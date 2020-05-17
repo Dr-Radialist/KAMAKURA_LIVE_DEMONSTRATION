@@ -1,0 +1,30 @@
+240
+0
+00:00:00
+2018-09-02 00:00:00
+0
+2018-09-02 00:00:00
+tri
+2017
+2018-09-02
+
+241
+1
+09:30:00
+2018-12-15 09:30:00
+60
+裏ライブデモンストレーション
+
+253
+13
+17:00:00
+2018-12-15 17:00:00
+30
+座学 (10)
+
+UPDATE table_name SET 'target_column' = (`target_column` + INTERVAL 1 SECOND);//1秒後に変更
+UPDATE table_name SET 'target_column' = (`target_column` + INTERVAL 1 MINUTE);//1分後に変更
+UPDATE table_name SET 'target_column' = (`target_column` + INTERVAL 1 DAY);//1日後に変更
+UPDATE table_name SET 'target_column' = (`target_column` + INTERVAL 1 WEEK);//1週間後に変更
+UPDATE table_name SET 'target_column' = (`target_column` + INTERVAL 1 MONTH);//1カ月後に変更
+UPDATE table_name SET 'target_column' = (`target_column` + INTERVAL 1 MINUTE + INTERVAL 30 SECOND );//1分30秒後に変更

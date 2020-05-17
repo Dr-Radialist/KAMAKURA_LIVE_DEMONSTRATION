@@ -1,0 +1,18 @@
+ ###############################################################################################
+ ### SQL for KAMAKURA LIVE 2015 Faculty  
+ ### Based on this DDL, the program is constructed.
+ ###############################################################################################
+
+CREATE TABLE IF NOT EXISTS `faculty_tbls` (
+	`id` INT( 11 ) NOT NULL AUTO_INCREMENT,
+	`dr_name` VARCHAR( 128 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT '',
+	`hp_name` VARCHAR( 128 ) UNIQUE NOT NULL DEFAULT '',
+	`nation` VARCHAR( 128 ) NOT NULL DEFAULT '',
+	`dr_email` VARCHAR( 128 ) NOT NULL DEFAULT '',
+	`sponsor` VARCHAR( 256 )CHARACTER SET utf8 COLLATE utf8_general_ci  NOT NULL DEFAULT '',
+	`year` INT( 11 ) NOT NULL,
+	`is_active` BOOLEAN NOT NULL DEFAULT '0',
+	PRIMARY KEY (`id`),
+	UNIQUE(`dr_email`)
+) ENGINE = InnoDB CHARACTER SET utf8 COLLATE utf8_general_ci AUTO_INCREMENT=0;
+

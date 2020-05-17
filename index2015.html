@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="favicon.ico">
+<style type="text/css">
+.jp {
+	border: 2px solid red;
+}
+.us {
+	border: 1px solid blue;
+}
+</style>
+<title>KAMAKURA LIVE</title>
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+<!-- Custom styles for this template -->
+<link rel="stylesheet" type="text/css" href="bootstrap/jumbotron/jumbotron.css">
+</head>
+<!-- <body onLoad="init();"> -->
+<body onLoad="init();">
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation"  style="padding-top:5px;">
+  <div class="masthead">
+    <ul class="nav nav-pills">
+      <li> <a class="navbar-brand" href="20th/saitopicture.html">KAMAKURA LIVE&nbsp;&nbsp; <img src="img/SAITO1.png" width="23" height="32"  alt="saito"/>&nbsp;<img src="img/SAITO2.png" width="24" height="32" alt="saito" />&nbsp;&nbsp; <img src="img/NPO2013Logo.jpg" alt="NPOlogo" height="32" /></a> <a class="navbar-brand" href="TRC/Xian.html"><img src="TRC/TRI_Images/b0.jpg" width="43" height="32" alt="Bicycle Ride on Xien City Wall"/></a> </li>
+      <li class="dropdown"> <a href="#" class="dropdown-toggle white" data-toggle="dropdown">LIVE2016<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="#" id="self">Venue</a></li>
+          <li><a href="#" id="">Session Schedule</a></li>
+          <li class="divider"></li>
+          <li class="dropdown-header red bold">Detail</li>
+          　
+          <li><a href="#">Introduction</a></li>
+          <li><a href="#">What's interesting?</a></li>
+          <li><a href="#" class="#">Program at a glance</a></li>
+          <li><a href="23rd/dr_registration.php">2016 Faculty</a></li>
+          <li><a href="#" id="">???</a></li>
+        </ul>
+      </li>
+      <li class="dropdown"> <a href="#" class="dropdown-toggle white" data-toggle="dropdown">Past Meetings<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="12th/12thmain.html" id="12th">KAMAKURA LIVE 2005</a></li>
+          <li><a href="13th/13thmain.html">KAMAKURA LIVE 2006</a></li>
+          <li><a href="14th/14th_index.html">KAMAKURA LIVE 2007</a></li>
+          <li><a href="15th/index2008.html">KAMAKURA LIVE 2008</a></li>
+          <li><a href="16th/index.html">KAMAKURA LIVE 2009</a></li>
+          <li><a href="17th/index.html">KAMAKURA LIVE 2010</a></li>
+          <li><a href="18th/18thTop.html">KAMAKURA LIVE 2011</a></li>
+          <li><a href="19th/index2012.pdf">KAMAKURA LIVE 2012</a></li>
+          <li><a href="20th/index.html">KAMAKURA LIVE 2013</a></li>
+          <li><a href="21st/index21.php">KAMAKURA LIVE 2014</a></li>
+          <li><a href="TRC/Xian.html">City Wall in Xi'an</a></li>
+        </ul>
+      </li>
+      <li class="dropdown"> <a href="#" class="dropdown-toggle white" data-toggle="dropdown">Our Activities<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="http://www.tri-international.org/" id="npo" target="_blank">特定非営利活動法人ティー・アール・アイ国際ネットワーク</a></li>
+          <li><a href="http://www.kamakuralive.net/" id="live" target="_blank">鎌倉ライブデモンストレーション</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="midokoroModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="閉じる"><span aria-hidden="true">&times;</span></button>
+          <h3 class="modal-title red">鎌倉ライブ2015: 見どころ</h3>
+        </div>
+        <div class="modal-body" style="background-color: #F9F279;">
+          <p style="font-weight:bold; color:purple; font-size:large;"> 齋藤　滋の独り言<br>
+          </p>
+          <ol>
+            <li>日本TRI 20周年</li>
+            <p>どこまでTRIが進化したか?</p>
+            <li>齋藤　滋がPCIを始めて 34年間経過</li>
+            <p>老体のグルが何処までできるか?</p>
+            <li>何と世界サッカー・クラブチーム選手権決勝!</li>
+            <p>噂ではアルゼンチンから大挙 10,000人のサポーターが横浜に集結するとのこと</p>
+            <li>化石のような術者による化石のようなPCIにどれだけのファンが集まるか?</li>
+            <p>まずい　これで最後か???</p>
+            <li>とは言っても今年は力を振り絞り頑張りましょう</li>
+            <p>皆さんご支援宜しくお願いします。</p>
+          </ol>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">閉じる</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> --> 
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<div class="box">
+  <style>
+ .box {border:#040EF4 solid 4px; background-color:#DFFAD9;}
+ </style>
+  <div class="container">
+    <h3 class="alert-success">鎌倉ライブデモンストレーション・コース (KAMAKURA Live Demonstration Course)
+      &nbsp;2015年度は好評裏に終了しました</h3>
+    　　　
+    <p class="text-center text-primary">Your are No.&nbsp;&nbsp;<img src="/FS-APL/FS-Counter/counter.cgi?Code=kamakuralive" alt="counter"> &nbsp;visitor.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red; font-weight:bold; font-size:large;">Last Updated on   <!-- #BeginDate format:En2 -->20-Aug-2016<!-- #EndDate --></span></p>
+  </div>
+  <!--    </div> -->
+</div>
+<div class="container">
+  <!-- Example row of columns -->
+  <div class="row">
+    <div class="col-md-4">
+      <h2 class="text-danger">KAMAKURA LIVE 2015 celebrates the 20 Years' Anniversary of TRI in JAPAN</h2>
+      <p class="text-info">KAMAKURA Live Demonstration Course 2015 was over.      </p>
+      <p class="text-info">2015年鎌倉ライブデモンストレーションが開始されました。日本においてTRI(経橈骨動脈的冠動脈インターベンション)が花開いて20年を記念する会は好評の内に終了しました。</p>
+      <p><a class="btn btn-success" role="button" id="openMidokoro">去年の見どころ　見てね! &raquo;</a></p>
+      <p class="text-danger">クリスマス直前の横浜港は、美しいイルミネーションで飾られます。是非ご参加下さい! </p>
+   <!--   <p align="left"><a class="btn btn-p btn-lg" role="button" onClick="alert('未だ稼働していません');">参加登録のご案内　&raquo; <br><span class="small">(参加費免除に該当<br>される場合でも<br>事前登録必要です)</span></a> </p> -->
+   <p align="left"><a class="btn btn-p btn-lg" role="button" href="#">各セミナーご案内　&raquo; <br>
+   <span class="small">EVT Session、ランチョン・セミナー</span>、<br><span class="small">イブニング・セミナーのご案内です</span></a> </p>
+   
+   <!-- <p align="left"><a class="btn btn-p btn-lg" role="button" href="22nd/pay2015/payment00.html">参加登録のご案内　&raquo; <br><span class="small">(参加費免除該当<br>
+   の場合でも<br>事前登録必要です)</span><br><span class="small">(12月07日まで受け付けます)</span></a> </p> -->
+
+
+      <!--<p><a class="btn btn-re btn-lgl" href="22nd/hbd2015/index_hbd2015.html" role="button">From JAPAN to US　&raquo;<br>特別プログラム　&raquo;</a></p> -->
+      <p><a class="btn btn-primary btn-lg" href="#">Program  at a glance　&raquo;</a></p>
+      <!-- <p><a class="btn btn-p btn-lg 2015komekome" role="button">コメコメ演題募集中!!　&raquo;</a></p> -->
+      <p><a class="btn btn-re" role="button" href="#">コメコメ皆さんに配布を!!　&raquo;</a></p>
+      <p><a class="btn btn-success" role="button" id="2015placeHamagin">開催場所（はまぎんホール） &raquo;</a></p>
+      <p><a class="btn btn-info 2015placeNisseki" role="button">開催場所（日石横浜ホール） &raquo;</a></p>
+      <h2 class="text-danger">LIVE 2016 (This Year)</h2>
+      <p class="text-danger">This year in 2016, KAMAKURA Live Demonstration Course will be held on December 17th (Saturday) and 18th (Sunday) in YOKOHAMA. </p>
+      <h2 class="text-danger">ライブ2016 (今年)</h2>
+      <p class="text-danger">2016年の鎌倉ライブデモンストレーションは12月17日(土)そして18日(日)に横浜で開催されます。</p>
+    </div>
+    <div class="col-md-4">
+      <h2 class="text-danger">Live Program in Detail (プログラム詳細)</h2>
+      <p class="text-muted">Achieving 20 years' anniverasy of transradial coronary intervention (TRI) in Japan, Kamakura Live Demonstration Course 2015 will again focus on TRI itself.</p>
+      <p class="text-warning">日本において経橈骨動脈的冠動脈インターベンション(TRI)が花開いて20年が経過しました。これを受け、鎌倉ライブデモンストレーション2015は再び経橈骨動脈的冠動脈インターベンションそのものをフォーカスします。</p>
+      <p><a class="btn btn-re btn-lg" role="button" href="#">Special Program　&raquo;<br>20 Years  of TRI in JAPAN</a></p>
+      <p><a class="btn btn-re btn-lg plogram_detail" href="#" role="button">View details (もっと詳しく)　&raquo;</a></p>
+
+      <h2 class="text-danger">特別プログラム「日本からアメリカへ！　HBDによる医療機器イノベーション」: FROM <img src="img/japan_flag.gif" width="68" height="45" alt="japan" class="jp" onclick=""/> To <img src="img/us_flag.png" width="68" height="45" alt="us" class="us" onclick=""/></h2>
+      <h1 class="text-info">好評裏に終了しました!</h1>
+      <p><a class="btn btn-re btn-lg" role="button" href="22nd/hbd2015/index_hbd2015.html#japanese">プログラム内容　&raquo;</a></p>
+      <!-- <p><a class="btn btn-danger btn-sm" role="button" href="22nd/pay2015/payment_hbd.html">事前登録して参加する　&raquo;</a></p> -->
+      <div jg="jTruncSubstr" jg:jTruncSubstr="length:200, moreText:'続きを読む...', lessText:'縮める...', delimiters:[' ','、','。','」']">
+        <p class="text-warning">日本は国家政策として、医療において日本で開発された様々なサービスを全世界に広め、これにより世界の健康増進に寄与しようとしています(Medical Excellence JAPAN)。これに沿い経済産業省(METI)は世界で通用する医療機器の開発を促進し、これらを諸外国に展開することを進めています。厚生労働省(MHLW)は国内においてFIM試験(First In Man試験 == 人類において歴史上初めて行われる臨床試験)を開始し、PMS(Post Marketing Surveillance : 市販後調査)において医療機器開発が完結できるように様々な体制強化に乗り出しています。文部科学省(MEXT)は起業を奨励すると共に起業家の育成に務めています。一方　国立研究開発法人　日本医療研究開発機構(AMED)はこれらの国家政策の取りまとめを行っています。一般社団法人日本医療機器産業連合会(JFMDA)は産業界からこのような動きに連動して活発に活動しています。これにより、日本発の医療機器が米国を含め、全世界に展開され、その結果世界中の人々の健康増進に大きく役立つものと期待されています。この会においては、各関連省庁および機関より多数の参加を仰ぎ、HBDを通じた活動の意味を皆で討議することを目指します。是非奮って皆様方のご参加をお待ちします。</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h2 class="text-danger">Come Come Club was refreshed</h2>
+      <!-- <p><a class="btn btn-p btn-lg 2015komekome" role="button">コメコメ演題募集中!!　&raquo;</a></p> -->
+      <p><a class="btn btn-re" role="button" href="22nd/pamphlet2015/comecome_tri.pdf">コメコメ皆さんに配布を!!　&raquo;</a></p>
+      <p class="text-info">最近の心臓インターベンションにおける急速な進歩を受け、コメコメ・クラブ委員会は刷新されました。新しいコメコメ委員会は、皆様方に対して刷新された新しいコメコメ・クラブを提案します。</p>
+      <p class="text-info">以前は 米米クラブ (KomeKome Club)という表記も用いていましたが、Co-medicalの積極的な関与が必要ですので、今後は Come Come Clubという表記で統一させて頂きます。</p>
+      <p><a class="btn btn-bk btn-lg 2015komekome" role="button">プログラム（Come Come Club)　&raquo;</a></p>
+      <p><a class="btn btn-info 2015placeNisseki" role="button">開催場所（日石横浜ホール） &raquo;</a></p>
+
+      <h2>Past Photo Albums</h2>
+      <p>These photos were taken and assembled by Dr. Fuminobu YOSHIMACHI during the past KAMAKURA Live Demonsration Courses. You can realize how YOKOHAMA Port is beautiful in this season. <span class="red">Flash Player is necessary!</span></p>
+      <p><a class="btn btn-danger btn-lg" role="button" href="21st/KamakuraLive2014/">View 2014　&raquo;</a></p>
+      <p><a class="btn btn-danger btn-lg" role="button" href="20th/KamakuraLive2013/">View 2013　&raquo;</a></p>
+      <p><a class="btn btn-danger btn-lg" role="button" href="19th/kamakura2012/">View 2012　&raquo;</a></p>
+      <p><a class="btn btn-danger btn-lg" role="button" href="18th/kamakura2011/">View 2011　&raquo;</a></p>
+      <p><a class="btn btn-danger btn-lg" role="button" href="17th/kamakura2010/index.htm">View 2010　&raquo;</a></p>
+      <p><a class="btn btn-danger btn-lg" href="16th/kamakura2009/index.htm" role="button">View 2009　&raquo;</a></p>
+      <p><a class="btn btn-danger btn-lg" href="15th/kamakura2008photo/index.htm" role="button">View 2008　&raquo;</a></p>
+    </div>
+  </div>
+  <hr>
+  <footer>
+  <div>
+    <p>&copy;  2013 - 2016 by NPO International TRI Network & KAMAKURA LIVE</p> 
+    <p><a class="btn btn-p btn-sm" role="button" href="index2016.php">&raquo; <br></a> </p>
+    <p><a class="btn btn-p btn-sm" role="button" href="23rd/2016planning/index2016mod.php">&raquo; <br></a> </p>
+    </div>
+  </footer>
+</div>
+
+<script src = "https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+<script>
+	if (!window.jQuery) {
+		document.write('<script src="bootstrap/jquery-2.1.4.min.js"><\/script><script src="bootstrap/js/bootstrap.min.js"><\/script>');
+	}
+</script>
+<script src="bootstrap/docs-assets/javascript/extension.js"></script>
+<script src="bootstrap/docs-assets/javascript/top.js"></script>
+<script src="bootstrap/docs-assets/javascript/jglycy-1.0.js"></script>
+<script src="bootstrap/docs-assets/javascript/jtruncsubstr.js"></script>
+<script src="22nd/index2015.js"></script>
+</body>
+</html>

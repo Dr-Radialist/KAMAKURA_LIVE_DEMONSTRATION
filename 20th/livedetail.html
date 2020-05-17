@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="KAMAKURA LIVE DEMONSTRATION COURSE">
+    <meta name="author" content="Shigeru SAITO, MD, FACC, FSCAI, FJCC">
+    <meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="1">
+    <link rel="shortcut icon" href="../favicon.ico">
+	<script type="text/javascript">
+		if (navigator.onLine) 	appCache.update();
+	</script>    
+    <title>KAMAKURA LIVE</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../bootstrap/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          &nbsp;
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+    
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h2 class="alert-success">Welcome to KAMAKUR Live Demonstration Course 2013</h2>
+        <h2 class="alert-warning">鎌倉ライブデモンストレーション・コース 2013にようこそ</h2>
+        <p class="text-muted">This year, KAMAKURA Live Demonstration Course will focus not only on TRI (transradial coronary intervention) or EVT (endovascular therapy) for peripheral vascular disease but also on interventional therapies for structured heart disease, such as TAVI/TAVR.</p>
+        <p class="text-warning">今年の鎌倉ライブは、TRI (経橈骨動脈的冠動脈インターベンション)あるいは末梢血管に対する血管内治療のみならず、TAVIに代表される弁膜症などに対するインターベンションにも焦点を当てます。</p>
+		<div class="jumbotron">
+        	<div class="row">
+        		<div class="col-md-2 btn-container-400">
+					<p><button type="button" class="btn btn-default btn-lg btn-block" id="logo">Fancy Logo (素晴らしいロゴ)</button></p>
+					<p><button type="button" class="btn btn-primary btn-lg btn-block" id="timetable">Time Table (全体予定表)</button></p>
+                    <p><button type="button" class="btn btn-info btn-lg btn-block" id="amex">AMEX Club (Get T-Shirts)</button></p>
+            		<p><button type="button" class="btn btn-success btn-lg btn-block" id="advance">Advanced Interventional Device Symposium</button></p>
+            		<p><button type="button" class="btn btn-info btn-lg btn-block" id="prereg">Pre-Registration (事前登録)は終了しました<br>当日登録</button></p>
+            		<p><button type="button" class="btn btn-warning btn-lg btn-block" id="presentation">コメディカル演題登録</button></p>
+                   <p><button type="button" class="btn btn-danger btn-lg btn-block" id="komekome_general">コメコメ・プログラム概要</button></p>
+                   <p><button type="button" class="btn btn-danger btn-lg btn-block" id="komekome_program">コメコメ・プログラム最新</button></p>
+            		<p><button type="button" class="btn btn-danger btn-lg btn-block" id="komekome_model">心臓模型作成</button></p>
+            	</div>
+        		<div class="col-md-2 btn-container-400">
+            		<p><button type="button" class="btn btn-default btn-lg btn-block" id="luncheon">Luncheon/Evening Seminars</button></p>
+                    <p><button type="button" class="btn btn-warning btn-lg btn-block" id="knic">KNIC Medtronic/TERUMO (20th Friday)</button></p>                    
+                    <p><button type="button" class="btn btn-warning btn-lg btn-block" id="terumo">TERUMO (21st Saturday)</button></p>
+                    <p><button type="button" class="btn btn-info btn-lg btn-block" id="boston">Boston (21st Saturday)</button></p>
+					<p><button type="button" class="btn btn-danger btn-lg btn-block" id="abbott">Abbott Evening (21st Saturday)</button></p></button></p>       	
+                    <p><button type="button" class="btn btn-primary btn-lg btn-block" id="medtronic">Medtronic (22nd Sunday)</button></p></button></p>
+            		<p><button type="button" class="btn btn-success btn-lg btn-block" id="msd">MSD Co-Medical (22nd Sunday)</button></p>
+            	</div>
+        	</div>
+        </div>
+              <p><a class="btn btn-danger btn-lg" role="button" id="return">Return (戻る) &raquo;</a></p>
+		</div>
+
+
+      <hr>
+
+      <footer>
+        <p class="text-right">&copy; NPO TRI International Network 2013</p>
+      </footer>
+      
+    </div> <!-- /jumbotron -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../bootstrap/jquery-1.10.2.min.js"></script>
+    <script src="../bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript">
+		$(function() {
+			$("#return").click(function() {
+				document.location = '../index.html';
+			});
+			$("#logo").click(function() {
+				window.open('pdf/live2013_top.pdf');
+			});	
+			$("#timetable").click(function() {
+				window.open('pdf/plan2013.pdf');
+			});	
+			$("#amex").click(function() {
+				window.open('pdf/AMEX_Club.pdf');
+			});	
+			$("#advance").click(function() {
+				window.open('Advance_Device_Symposium/ads.html');
+			});	
+			$("#prereg").click(function() {
+				alert('前登録は11月31日をもって終了しました\nたくさんのご登録ありがとうございました。\n\n当日登録は次のようになりますのでご利用下さい。');
+				window.open('payment.html');
+			});	
+			$("#presentation").click(function() {
+				window.open('https://www.tri-international.org/kamakuralive/');
+			});
+			$("#luncheon").click(function() {
+				window.open('luncheon.html');
+			});
+			$("#knic").click(function() {
+				window.open('pdf/KNIC_Luncheon.pdf');
+			});			
+			$("#terumo").click(function() {
+				window.open('pdf/TERUMO-21-Sat.pdf');
+			});
+			$("#boston").click(function() {
+				window.open('pdf/Boston-21-Sat.pdf');
+			});
+			$("#abbott").click(function() {
+				//window.open('pdf/Medtronic-22-Sun.pdf');
+			});
+			$("#medtronic").click(function() {
+				window.open('pdf/Medtronic-22-Sun.pdf');
+			});
+			$("#msd").click(function() {
+				window.open('pdf/MSD-22-Sun.pdf');
+			});
+			$("#komekome_general").click(function() {
+				window.open('pdf/komekome_general.pdf');
+			});
+			$("#komekome_program").click(function() {
+				window.open('pdf/komekome_program.pdf');
+			});
+			$("#komekome_model").click(function() {
+				window.open('pdf/komekome_model.pdf');
+			});
+		});
+	</script>
+  </body>
+</html>

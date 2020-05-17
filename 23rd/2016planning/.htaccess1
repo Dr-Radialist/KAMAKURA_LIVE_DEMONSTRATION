@@ -1,0 +1,13 @@
+AddType application/x-httpd-php .php .html .htm
+AddType application/x-httpd-php-source .phps
+
+<Files ~ "^\.(htaccess|htpasswd)$">
+	deny from all
+</Files>
+Options -Indexes
+AuthType     Basic
+AuthName     "This is a restricted area!"
+AuthUserFile /virtual/www/23rd/2016planning/.htpasswd
+AuthGroupFile /dev/null
+require valid-user
+order deny,allow
